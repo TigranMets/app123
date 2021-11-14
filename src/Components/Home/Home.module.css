@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.homeWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 130px;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left_block {
+    margin-left: 77px;
+}
+
+.header {
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.text_about_me {
+    font-size: 33.9px;
+    width: 759px;
+    color: #868E96;
+    margin-top: 50px;
+    display: flex;
+}
+
+.socImages {
+    display: flex;
+}
+
+.socImages img {
+    height: 43px;
+    margin: 39.9px 13px 0px 0px;
+}
+
+.TigranTumoImg {
+    height: 420px;
+    margin: 30px 100px 0px 0px;
+}
+
+.buttons {
+    margin-top: 39.9px;
+    display: flex;
+}
+
+.button {
+    height: 59px;
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    width: 200px;
+    margin-right: 47px;
+}
+
+.buttons button:hover {
+    border: 1px solid red;
+    background: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.resume {
+    margin-left: 43px;
+}
+
+/* media queris for iphone 6/7/8 */
+
+@media screen and (max-width: 375.5px) {
+    .homeWrapper {
+        width: 375px;
+        margin-top: 110px;
+        justify-content: center;
+    }
+    .left_block {
+        margin: 0;
+    }
+    .header {
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .aboutMe {
+        display: flex;
+        justify-content: center;
+    }
+    .text_about_me {
+        text-align: center;
+        font-size: 18.2px;
+        margin-top: 20px;
+        width: 350px;
+    }
+    .socImages {
+        display: flex;
+        justify-content: center;
+    }
+    .socImages img {
+        height: 43px;
+        margin-top: 39.9px;
+        margin: 39.9px 9px 0px 0px;
+    }
+    .imageBlock {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .TigranTumoImg {
+        height: 235px;
+        margin: 50px 0px 0px 0px;
+    }
+    .buttons {
+        margin: 50px 0px 0px 0px;
+        justify-content: center;
+    }
+    .button {
+        height: 50px;
+        color: white;
+        background: red;
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+        width: 150px;
+        text-align: center;
+        margin: 0px 7.5px 0px 7.5px;
+    }
+
+    .button:hover {
+        border: 1px solid red;
+        background: white;
+        color: black;
+        transition: 0.5s;
+    }
+    .resume {
+        margin-left: 43px;
+    }
+}
+
+/*media queries for iphone 4 */

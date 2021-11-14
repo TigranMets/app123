@@ -1,0 +1,47 @@
+/* styles of body */
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 75px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* styles of project's header */
+
+.projects_header {
+    font-size: 47px;
+    font-weight: bold;
+    margin: 0px 0px 30px 0.9%;
+}
+
+.carts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 17px;
+}
+
+.more_projects {
+    background: red;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 43.9%;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.more_projects:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+    transition: 0.5s;
+}

@@ -1,0 +1,34 @@
+.body{
+    padding-top: 97px;
+    display: flex;
+}
+
+.my_image{
+    height:560px;
+    display: flex;
+    margin-left:100px;
+}
+
+.left_div{
+    margin:0px 0px 0px 77px;
+}
+
+.header{
+    display: flex;
+    font-size:47px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom:10px;
+}
+
+.left_div span{
+    font-size:23px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    padding-top:13px;
+}
+
+.left_div progress{
+    height:28px;
+    width:710px;
+}

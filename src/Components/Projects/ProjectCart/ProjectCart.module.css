@@ -1,0 +1,49 @@
+/* styles of project's Cart */
+
+.body {
+    display: flex;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.projectCart {
+    width: 440px;
+    height: 200px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    margin: 0px 27px 20px 0px;
+}
+
+.projectCart:hover {
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+
+.project_name {
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+.about_project {
+    padding: 0px 30px 20px 0px;
+    display: flex;
+    font-size: 18px;
+    color: #868E96;
+}
+
+.project_cart_body {
+    padding-left: 30px;
+}
+
+.kb {
+    margin-left: 63%;
+    display: flex;
+}
+
+.bottom_div {
+    font-size: 13px;
+    color: #868E96;
+}

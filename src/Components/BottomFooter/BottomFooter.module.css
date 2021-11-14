@@ -1,0 +1,25 @@
+.bottom_footer {
+    width: 100%;
+    color: #868E96;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.someDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.made {
+    margin-bottom: 15px;
+}
+
+.theme {
+    font-size: 16px;
+}
+
+.myPortfolio {
+    color: blue;
+}

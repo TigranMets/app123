@@ -1,0 +1,81 @@
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 50px;
+    margin: 0px 600px 0px 77px;
+}
+
+.experiences_cart {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 445px;
+    height: 530px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.cartsBlock {
+    display: flex;
+    margin-top: 3%;
+}
+
+.header_experiences {
+    font-size: 47px;
+    font-weight: bold;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title_div {
+    height: 34%;
+    width: 100%;
+    background-color: #4B4B4B;
+    color: white;
+    font-size: 27px;
+    border-radius: 5px;
+}
+
+.company_name {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.company_img {
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom:30px;
+}
+
+.job {
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px 10px 0px;
+}
+
+.date {
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.impressions {
+    width: 80%;
+    display: flex;
+    margin-left: 9%;
+    color: #868E96;
+    font-size: 19px;
+}
+
+.experiences_cart:hover {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

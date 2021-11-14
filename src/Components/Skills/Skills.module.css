@@ -1,0 +1,177 @@
+.body {
+    display: flex;
+    padding-top: 110px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+/* styles of my image*/
+
+.Tigran_img {
+    height: 550px;
+    margin-left: 5%;
+    display: flex;
+}
+
+/* right div's styles */
+
+.skills_right_div {
+    margin-left: 20%;
+}
+
+/*styles of header*/
+
+.header {
+    font-size: 39px;
+    display: flex;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 29px;
+}
+
+.about_me {
+    font-size: 23px;
+    color: #868E96;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin-bottom: 30px;
+    width: 670px;
+}
+
+/* style's of languages div */
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.languages img {
+    height: 60px;
+    display: flex;
+}
+
+.languages_without_html img {
+    margin-left: 13px;
+}
+
+.languages_without_html {
+    display: flex;
+}
+
+.languages_names {
+    margin-left: 10px;
+    word-spacing: 26.9px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.js {
+    margin-left: 25px;
+}
+
+.jquery {
+    margin-left: 28px;
+}
+
+.wordpress {
+    margin-left: 30px;
+}
+
+/* styles of my skills div*/
+
+.mySkills {
+    margin-top: 60px;
+    width: 670px;
+}
+
+.mySkills span {
+    font-size: 20px;
+    color: #868E96;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 375.8px) {
+    .body {
+        display: flex;
+        padding-top: 110px;
+        margin-bottom: 100px;
+        width: 375px;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    /* styles of my image*/
+    .Tigran_img {
+        height: 400px;
+        width: 300px;
+        margin-left: 5%;
+        display: flex;
+    }
+    /* right div's styles */
+    .skills_right_div {
+        margin: 0%;
+        width: 375px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    /*styles of header*/
+    .header {
+        font-size: 27px;
+        display: flex;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 29px;
+        justify-content: center;
+    }
+    .about_me {
+        font-size: 17px;
+        color: #868E96;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin-bottom: 30px;
+        width: 300px;
+        text-align: center;
+        
+    }
+    /* style's of languages div */
+    .languages {
+        width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .languages img {
+        height: 60px;
+    }
+    .languages_without_html img {
+        margin-left: 13px;
+        display: flex;
+    }
+    .languages_without_html {
+        display: flex;
+    }
+    .languages_names {
+        margin-left: 10px;
+        word-spacing: 26.9px;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+    }
+    .js {
+        margin-left: 25px;
+    }
+    .jquery {
+        margin-left: 28px;
+    }
+    .wordpress {
+        margin-left: 30px;
+    }
+    /* styles of my skills div*/
+    .mySkills {
+        margin-top: 60px;
+        width: 670px;
+    }
+    .mySkills span {
+        font-size: 20px;
+        color: #868E96;
+        font-family: 'Roboto', sans-serif;
+    }
+}

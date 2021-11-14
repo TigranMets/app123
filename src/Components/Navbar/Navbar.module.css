@@ -1,0 +1,79 @@
+/*navigation */
+
+.body {
+    width: 100%;
+    display: flex;
+    padding:15px 5px 0px 5px;
+}
+
+.right_menu {
+    margin-left: 19.5%;
+}
+
+/* մենյուի style -եր */
+
+.right_menu a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 23px;
+    padding: 12px;
+
+}
+
+/*hover for right_menu a*/
+
+.right_menu a:hover {
+    background: #f0f2f3;
+}
+
+/* լոգոյի style -եր */
+
+.TigranMets {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: red;
+    margin-left: 1%;
+}
+
+@media only screen and (max-width: 375.8px) {
+    /*navigation */
+
+.body {
+    width: 100%;
+    display: flex;
+}
+
+.right_menu {
+    display: none;
+}
+
+/* մենյուի style -եր */
+
+.right_menu a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 23px;
+    padding: 12px;
+
+}
+
+/*hover for right_menu a*/
+
+.right_menu a:hover {
+    background: #f0f2f3;
+}
+
+/* լոգոյի style -եր */
+
+.TigranMets {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: red;
+    margin-left: 1%;
+}
+
+}
