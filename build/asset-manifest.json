@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.892170bb.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.e3085be9.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.e3085be9.chunk.js.map",
-    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.ddc14aa9.js",
-    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.ddc14aa9.js.map",
-    "static/js/2.525c4282.chunk.js": "/My-Portfolio/static/js/2.525c4282.chunk.js",
-    "static/js/2.525c4282.chunk.js.map": "/My-Portfolio/static/js/2.525c4282.chunk.js.map",
-    "index.html": "/My-Portfolio/index.html",
-    "static/css/main.892170bb.chunk.css.map": "/My-Portfolio/static/css/main.892170bb.chunk.css.map",
-    "static/js/2.525c4282.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.525c4282.chunk.js.LICENSE.txt",
-    "static/media/JsConf.03434903.jpg": "/My-Portfolio/static/media/JsConf.03434903.jpg",
-    "static/media/SmartHome.5ee61402.jpg": "/My-Portfolio/static/media/SmartHome.5ee61402.jpg",
-    "static/media/TigranTumo.3189be0f.jpg": "/My-Portfolio/static/media/TigranTumo.3189be0f.jpg",
-    "static/media/Tikoit.ae11d1e4.jpg": "/My-Portfolio/static/media/Tikoit.ae11d1e4.jpg"
+    "main.css": "/static/css/main.aacb0f69.chunk.css",
+    "main.js": "/static/js/main.21c923e1.chunk.js",
+    "main.js.map": "/static/js/main.21c923e1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bc431a78.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bc431a78.js.map",
+    "static/js/2.525c4282.chunk.js": "/static/js/2.525c4282.chunk.js",
+    "static/js/2.525c4282.chunk.js.map": "/static/js/2.525c4282.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.aacb0f69.chunk.css.map": "/static/css/main.aacb0f69.chunk.css.map",
+    "static/js/2.525c4282.chunk.js.LICENSE.txt": "/static/js/2.525c4282.chunk.js.LICENSE.txt",
+    "static/media/JsConf.03434903.jpg": "/static/media/JsConf.03434903.jpg",
+    "static/media/SmartHome.5ee61402.jpg": "/static/media/SmartHome.5ee61402.jpg",
+    "static/media/TigranTumo.3189be0f.jpg": "/static/media/TigranTumo.3189be0f.jpg",
+    "static/media/Tikoit.ae11d1e4.jpg": "/static/media/Tikoit.ae11d1e4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ddc14aa9.js",
+    "static/js/runtime-main.bc431a78.js",
     "static/js/2.525c4282.chunk.js",
-    "static/css/main.892170bb.chunk.css",
-    "static/js/main.e3085be9.chunk.js"
+    "static/css/main.aacb0f69.chunk.css",
+    "static/js/main.21c923e1.chunk.js"
   ]
 }
