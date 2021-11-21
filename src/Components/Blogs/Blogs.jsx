@@ -9,7 +9,7 @@ const Blogs = (props) => {
             description={c.description} />)
 
     return (
-        <div className='blogs' className={s.body}>
+        <div id='blogs' className={s.body}>
             <span className={s.header}>Blogs</span>
             <br />
             <span className={s.description} >WITH LOVE FOR DEVELOPING COOL STUFF, I LOVE TO WRITE AND TEACH OTHERS WHAT I HAVE LEARNT.</span>

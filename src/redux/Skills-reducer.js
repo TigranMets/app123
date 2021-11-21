@@ -23,7 +23,7 @@ const initialState = {
             languageName: 'jQuery',
         },
         {
-            imgSrc: 'https://uxwing.com/wp-content/themes/uxwing/download/07-design-and-development/react-js.png',
+            imgSrc: 'https://sap.github.io/ui5-webcomponents/assets/images/react.svg',
             imgAlt: 'React',
             languageName: 'React',
         },

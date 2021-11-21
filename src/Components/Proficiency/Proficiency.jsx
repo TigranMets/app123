@@ -4,27 +4,30 @@ import s from './Proficiency.module.css';
 
 const Proficiency = () => {
     return (
-        <div className='profilciency' className={s.body}>
-            {/*my image*/}
+        <div id='profilciency' className={s.proficiencyWrapper}>
 
-            <div className={s.left_div}>
-                {/*header*/}
+            <div className={s.proficiency}>
                 <p className={s.header}>Proficiency</p>
-                <span>HTML CSS</span>
-                <br />
-                <progress className="file" value="85" max="100"></progress>
-                <span>JavaScript</span>
-                <br />
-                <progress className="file" value="60" max="100"></progress>
-                <span>Jquery</span>
-                <br />
-                <progress className="file" value="60" max="100"></progress>
-                <span>React</span>
-                <br />
-                <progress className="file" value="30" max="100"></progress>
-                <span>Wordpress</span>
-                <br />
-                <progress className="file" value="30" max="100"></progress>
+                <div>
+                    <span>HTML CSS</span>
+                    <progress value="100" max="100"></progress>
+                </div>
+                <div>
+                    <span>JavaScript</span>
+                    <progress value="70" max="100"></progress>
+                </div>
+                <div>
+                    <span>Jquery</span>
+                    <progress value="30" max="100"></progress>
+                </div>
+                <div>
+                    <span>React</span>
+                    <progress value="30" max="100"></progress>
+                </div>
+                <div>
+                    <span>Wordpress</span>
+                    <progress value="30" max="100"></progress>
+                </div>
             </div>
             <img className={s.my_image} src={jsConf} alt="" />
         </div>

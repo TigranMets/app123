@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .homeWrapper {
     display: flex;
     flex-wrap: wrap;
@@ -13,10 +14,14 @@
 }
 
 .header {
+    display: flex;
     font-size: 50px;
+}
+
+.greeting {
     font-weight: bold;
     display: flex;
-    margin-bottom: 50px;
+    margin-top: 3px;
 }
 
 .text_about_me {
@@ -68,17 +73,17 @@
     margin-left: 43px;
 }
 
-/* media queris for iphone 6/7/8 */
-
-@media screen and (max-width: 375.5px) {
+@media screen and (max-width: 375.2px) {
     .homeWrapper {
         width: 375px;
         margin-top: 110px;
         justify-content: center;
     }
+
     .left_block {
         margin: 0;
     }
+
     .header {
         font-size: 25px;
         font-family: 'Roboto', sans-serif;
@@ -87,37 +92,42 @@
         justify-content: center;
         margin: 0;
     }
+
     .aboutMe {
         display: flex;
         justify-content: center;
     }
+
     .text_about_me {
         text-align: center;
         font-size: 18.2px;
         margin-top: 20px;
         width: 350px;
     }
+
     .socImages {
-        display: flex;
         justify-content: center;
     }
+
     .socImages img {
-        height: 43px;
-        margin-top: 39.9px;
         margin: 39.9px 9px 0px 0px;
     }
+
     .imageBlock {
         display: flex;
         justify-content: flex-end;
     }
+
     .TigranTumoImg {
-        height: 235px;
+        height: 233px;
         margin: 50px 0px 0px 0px;
     }
+
     .buttons {
         margin: 50px 0px 0px 0px;
         justify-content: center;
     }
+
     .button {
         height: 50px;
         color: white;
@@ -131,14 +141,17 @@
     }
 
     .button:hover {
-        border: 1px solid red;
-        background: white;
-        color: black;
-        transition: 0.5s;
+        height: 50px;
+        color: white;
+        background: red;
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+        width: 150px;
+        text-align: center;
+        margin: 0px 7.5px 0px 7.5px;
     }
-    .resume {
-        margin-left: 43px;
-    }
+
 }
 
 /*media queries for iphone 4 */

@@ -5,6 +5,7 @@ import s from './Home.module.css';
 import { Link } from 'react-scroll';
 
 const Home = (props) => {
+
     let socialIconImages =
         props.socImages.map(s => <SocialIcon iconAlt={s.iconAlt} iconSrc={s.iconSrc} />);
 
@@ -12,8 +13,10 @@ const Home = (props) => {
         <div className={s.homeWrapper}>
 
             <div className={s.left_block}>
-                <span className={s.header}>Hi all, I'm TigranMets 👋</span>
-
+                <div className={s.header}>
+                    <span className={s.greeting}>Hi all, I'm TigranMets</span>
+                    <span className={s.greetingEmoji}>👋</span>
+                </div>
                 <div className={s.aboutMe}>
                     <span className={s.text_about_me}>Lorem ipsum dolor sit, amet consectetur 🚀 adipisicing elit. Vitae
                         blanditiis eaque reiciendis, corrupti quos fuga, harum consectetur non
@@ -22,7 +25,7 @@ const Home = (props) => {
 
                 <div className={s.socImages}>
                     <a href="https://github.com/TigranMets"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png" alt="github" /></a>
-                        {socialIconImages}
+                    {socialIconImages}
                 </div>
                 <div className={s.buttons}>
                     <Link to='footer' spy={true} smooth={true} ><button className={s.button}>Կապնվել ինձ հետ</button></Link>

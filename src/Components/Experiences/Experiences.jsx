@@ -12,7 +12,7 @@ const Experiences = (props) => {
             impressions={c.impressions} />);
 
     return (
-        <div className='experiences' className={s.body}>
+        <div id='experiences' className={s.body}>
             <span className={s.header_experiences}>Experiences</span>
             <div className={s.cartsBlock}>
             {carts}

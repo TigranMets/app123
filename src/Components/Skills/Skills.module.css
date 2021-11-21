@@ -1,25 +1,22 @@
 .body {
     display: flex;
-    padding-top: 110px;
-    margin-bottom: 100px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 110px 0px 100px 0px;
     width: 100%;
 }
 
-/* styles of my image*/
-
 .Tigran_img {
     height: 550px;
-    margin-left: 5%;
+    margin-left: 18.5%;
     display: flex;
 }
 
-/* right div's styles */
-
-.skills_right_div {
+.whatIDo {
+    display: flex;
+    flex-direction: column;
     margin-left: 20%;
 }
-
-/*styles of header*/
 
 .header {
     font-size: 39px;
@@ -30,148 +27,82 @@
 }
 
 .about_me {
-    font-size: 23px;
+    display: flex;
+    font-size: 23.5px;
     color: #868E96;
     font-family: 'Roboto', sans-serif;
-    display: flex;
     margin-bottom: 30px;
-    width: 670px;
+    width: 750px;
 }
-
-/* style's of languages div */
 
 .languages {
     display: flex;
     flex-wrap: wrap;
 }
 
-.languages img {
-    height: 60px;
-    display: flex;
-}
-
-.languages_without_html img {
-    margin-left: 13px;
-}
-
-.languages_without_html {
-    display: flex;
-}
-
-.languages_names {
-    margin-left: 10px;
-    word-spacing: 26.9px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.js {
-    margin-left: 25px;
-}
-
-.jquery {
-    margin-left: 28px;
-}
-
-.wordpress {
-    margin-left: 30px;
-}
-
-/* styles of my skills div*/
-
 .mySkills {
-    margin-top: 60px;
-    width: 670px;
+    margin-top: 50px;
+    width: 700px;
 }
 
 .mySkills span {
-    font-size: 20px;
+    display: flex;
+    font-size: 23px;
+    margin-top: 20px;
     color: #868E96;
     font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 375.8px) {
     .body {
-        display: flex;
-        padding-top: 110px;
-        margin-bottom: 100px;
         width: 375px;
-        flex-wrap: wrap;
-        justify-content: center;
+        margin-top: 90px;
         flex-direction: column-reverse;
     }
-    /* styles of my image*/
-    .Tigran_img {
-        height: 400px;
-        width: 300px;
-        margin-left: 5%;
+
+    .skillsImage {
         display: flex;
+        justify-content: center;
     }
-    /* right div's styles */
-    .skills_right_div {
-        margin: 0%;
+
+    .Tigran_img {
+        height: 350px;
+        width: 300px;
+        margin: 39px 0px 0px 0px;
+    }
+
+    .whatIDo {
+        margin: 0px;
         width: 375px;
         display: flex;
+        flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
     }
-    /*styles of header*/
+
     .header {
         font-size: 27px;
         display: flex;
-        font-weight: bold;
-        font-family: 'Roboto', sans-serif;
-        margin-bottom: 29px;
         justify-content: center;
     }
+
+    .languages {
+        justify-content: center;
+    }
+
     .about_me {
         font-size: 17px;
-        color: #868E96;
-        font-family: 'Roboto', sans-serif;
-        display: flex;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         width: 300px;
         text-align: center;
-        
     }
-    /* style's of languages div */
-    .languages {
-        width: 375px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .languages img {
-        height: 60px;
-    }
-    .languages_without_html img {
-        margin-left: 13px;
-        display: flex;
-    }
-    .languages_without_html {
-        display: flex;
-    }
-    .languages_names {
-        margin-left: 10px;
-        word-spacing: 26.9px;
-        font-family: 'Roboto', sans-serif;
-        display: flex;
-    }
-    .js {
-        margin-left: 25px;
-    }
-    .jquery {
-        margin-left: 28px;
-    }
-    .wordpress {
-        margin-left: 30px;
-    }
-    /* styles of my skills div*/
+
     .mySkills {
-        margin-top: 60px;
-        width: 670px;
+        margin-top: 0px;
+        width: 300px;
     }
+
     .mySkills span {
-        font-size: 20px;
-        color: #868E96;
-        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
     }
 }

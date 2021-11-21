@@ -1,34 +1,69 @@
-.body{
+.proficiencyWrapper {
     padding-top: 97px;
     display: flex;
+    flex-wrap: wrap;
 }
 
-.my_image{
-    height:560px;
+.header {
     display: flex;
-    margin-left:100px;
-}
-
-.left_div{
-    margin:0px 0px 0px 77px;
-}
-
-.header{
-    display: flex;
-    font-size:47px;
+    font-size: 47px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
-.left_div span{
-    font-size:23px;
+.my_image {
+    height: 560px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.proficiency {
+    margin: 0px 0px 0px 77px;
+}
+
+.proficiency span {
+    font-size: 23px;
     font-family: 'Roboto', sans-serif;
     display: flex;
-    padding-top:13px;
+    padding-top: 13px;
 }
 
-.left_div progress{
-    height:28px;
-    width:710px;
+.proficiency progress {
+    height: 28px;
+    width: 710px;
+}
+
+@media screen and (max-width: 375.8px) {
+    .body {
+        justify-content: center;
+        width: 375px;
+    }
+
+    .header {
+        font-size: 32px;
+        justify-content: center;
+    }
+
+    .my_image {
+        display: none;
+    }
+
+    .proficiency {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;
+    }
+
+
+    .proficiency span {
+        font-size: 19px;
+    }
+
+    .proficiency progress {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+    }
 }

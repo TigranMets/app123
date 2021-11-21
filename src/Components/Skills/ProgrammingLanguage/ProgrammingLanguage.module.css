@@ -1,0 +1,47 @@
+.programmingLanguageWrapper {
+    display: flex;
+}
+
+.programmingLanguage {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.programmingLanguage img {
+    height: 80px;
+    width: 80px;
+    display: flex;
+}
+
+.languages_names {
+    margin-top: 7px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 375.8px) {
+    .programmingLanguageWrapper {
+        justify-content: center;
+    }
+
+    .programmingLanguage {
+        width: 105px;
+        margin:8px 0px 30px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .programmingLanguageImage{
+        display: flex;
+        justify-content: center;
+    }
+
+    .programmingLanguage img {
+        height: 82px;
+        width: 82px;
+        justify-content: center;
+    }
+
+}

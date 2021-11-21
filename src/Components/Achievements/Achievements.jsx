@@ -11,7 +11,7 @@ const Achievements = (props) => {
             buttonText={c.buttonText} />)
 
     return (
-        <div className='achievements' className={s.body}>
+        <div id='achievements' className={s.body}>
             <span className={s.header}>Achieventns And Certifications 🏆</span>
             <span className={s.description}>ACHIEVEMENTS, CERTIFICATIONS, AWARD LETTERS AND SOME COOL STUFF THAT I HAVE DONE !</span>
             <div className={s.carts}>
