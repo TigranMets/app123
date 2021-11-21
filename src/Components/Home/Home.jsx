@@ -23,9 +23,10 @@ const Home = (props) => {
                         remsed exercitationem provident doloremque aliquam deserunt!</span>
                 </div>
 
-                <div className={s.socImages}>
-                    <a href="https://github.com/TigranMets"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png" alt="github" /></a>
-                    {socialIconImages}
+                <div className={s.socImagesWrapper}>
+                    <div className={s.socImages}>
+                        {socialIconImages}
+                    </div>
                 </div>
                 <div className={s.buttons}>
                     <Link to='footer' spy={true} smooth={true} ><button className={s.button}>Կապնվել ինձ հետ</button></Link>
